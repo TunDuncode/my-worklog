@@ -1,5 +1,5 @@
-baseURL: "http://localhost:1313/"
-title: "AWS"
+baseURL: "http://localhost:1313/" # Dùng link này để xem trên máy. Khi nào up lên Netlify hãy đổi lại sau.
+title: "Worklog của Tùng Dương"
 theme: "hugo-book"
 defaultContentLanguage: "en"
 
@@ -10,12 +10,10 @@ languages:
     contentDir: "content/en"
 
 params:
-  BookTheme: "auto"          # Tự động chuyển Dark/Light mode
-  BookRepo: "https://github.com/TunDuncode/my-worklog"
-  BookEditURL: "https://github.com/TunDuncode/my-worklog/edit/main/content/en/"
-  BookSearch: true           # Bật thanh tìm kiếm
-  BookSection: "*"
-  BookToC: true              # Bật Table of Contents (mục lục bên phải)
+  BookTheme: "auto"
+  BookSearch: true
+  BookSection: "*" 
+  BookToC: true         # Bật Table of Contents (mục lục bên phải)
 
 menu:
   before:
