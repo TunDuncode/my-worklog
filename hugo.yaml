@@ -1,5 +1,5 @@
 baseURL: "https://mellow-marzipan-18443a.netlify.app/"
-title: "Worklog của Tùng Dương"
+title: "Worklog"
 theme: "hugo-book"
 defaultContentLanguage: "en"
 
@@ -12,11 +12,37 @@ languages:
 params:
   BookTheme: "auto"
   BookSearch: true
-  BookSection: "*" 
+  BookSection: "*"
   BookToC: true
+  BookLogo: "/aws-logo.png" # Logo AWS góc trái
 
-# Thêm đoạn này để cho phép hiển thị HTML
+# Cho phép hiển thị HTML trong file markdown
 markup:
   goldmark:
     renderer:
       unsafe: true
+
+# Tự động tạo menu dựa trên cấu trúc thư mục
+menu:
+  before:
+    - name: "1. Worklog"
+      pageRef: "/1-worklog"
+      weight: 10
+    - name: "2. Proposal"
+      pageRef: "/2-proposal"
+      weight: 20
+    - name: "3. Blogs Posted"
+      pageRef: "/3-blogs"
+      weight: 30
+    - name: "4. Events Participated"
+      pageRef: "/4-events"
+      weight: 40
+    - name: "5. Workshop"
+      pageRef: "/5-workshop"
+      weight: 50
+    - name: "6. Self-Assessment"
+      pageRef: "/6-assessment"
+      weight: 60
+    - name: "7. Sharing and Feedback"
+      pageRef: "/7-feedback"
+      weight: 70

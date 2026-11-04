@@ -1,15 +1,15 @@
 ---
 title: "Internship Report"
-weight: 2
-bookFlatSection: true
+weight: 1
 type: docs
+bookFlatSection: true
 ---
 
 <div style="text-align: center; margin-bottom: 30px;">
   <h1 style="font-size: 40px; color: #5c7ba5; font-weight: 300;">INTERNSHIP REPORT</h1>
 </div>
 
-<div style="font-size: 18px; line-height: 1.8;">
+<div style="font-size: 18px; line-height: 2.3;">
   <h2 style="color: #5c7ba5; font-weight: normal;">Student Information:</h2>
   
   <p><strong>Full Name:</strong> Nguyễn Tùng Dương</p>
