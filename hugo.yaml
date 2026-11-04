@@ -22,7 +22,7 @@ menu:
     - name: "Worklog"
       pageRef: "/1-worklog"
       weight: 10
-title: "Nguyễn Tùng Dương" 
+title: "Worklog của Tùng Dương" 
 
 menu:
   before:
