@@ -18,7 +18,26 @@ params:
   BookToC: true              # Bật Table of Contents (mục lục bên phải)
 
 menu:
+  menu:
   before:
     - name: "1. Worklog"
       pageRef: "/1-worklog"
       weight: 10
+    - name: "2. Proposal"
+      pageRef: "/2-proposal"
+      weight: 20
+    - name: "3. Blogs Posted"
+      pageRef: "/3-blogs"
+      weight: 30
+    - name: "4. Events Participated"
+      pageRef: "/4-events"
+      weight: 40
+    - name: "5. Workshop"
+      pageRef: "/5-workshop"
+      weight: 50
+    - name: "6. Self-Assessment"
+      pageRef: "/6-assessment"
+      weight: 60
+    - name: "7. Sharing and Feedback"
+      pageRef: "/7-feedback"
+      weight: 70
