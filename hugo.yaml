@@ -10,19 +10,19 @@ languages:
     contentDir: "content/en"
 
 params:
-  BookTheme: "auto"
-  BookSearch: true
-  BookSection: "*"
-  BookToC: true
-  BookLogo: "/aws-logo.png" # Logo AWS góc trái
+  BookTheme: "light"         # Chuyển sang giao diện sáng (giống hệt ảnh mẫu)
+  BookSearch: true           # Bật thanh tìm kiếm
+  BookSection: "*"           # Hiển thị tất cả các thư mục cấp cao nhất trong menu
+  BookToC: true              # Bật mục lục bên phải
+  BookLogo: "/aws-logo.png"  # Đường dẫn logo góc trái
+  BookFooter: "Last Updated 22-07-2026 | Team: First Cloud AI Journey" # Chữ ở cuối trang
+  collapsibleMenu : true
 
-# Cho phép hiển thị HTML trong file markdown
 markup:
   goldmark:
     renderer:
-      unsafe: true
+      unsafe: true             # Cho phép hiển thị HTML trong file markdown
 
-# Tự động tạo menu dựa trên cấu trúc thư mục
 menu:
   before:
     - name: "1. Worklog"
@@ -46,3 +46,12 @@ menu:
     - name: "7. Sharing and Feedback"
       pageRef: "/7-feedback"
       weight: 70
+  after:
+    - name: "MORE"                 # Tạo tiêu đề "MORE"
+      weight: 80
+    - name: "AWS Study Group - Blog"
+      url: "https://cloudjourney.awsstudygroup.com/"
+      weight: 90
+    - name: "AWS Study Group - FB Group"
+      url: "https://www.facebook.com/groups/awsstudygroupfcj"
+      weight: 100
