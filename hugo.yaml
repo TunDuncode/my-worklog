@@ -22,3 +22,10 @@ menu:
     - name: "Worklog"
       pageRef: "/1-worklog"
       weight: 10
+title: "Nguyễn Tùng Dương" 
+
+menu:
+  before:
+    - name: "1. Worklog"
+      pageRef: "/1-worklog"
+      weight: 10
