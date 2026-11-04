@@ -1,5 +1,5 @@
 ---
-title: "1. Worklog"
+title: ""
 weight: 2
 bookFlatSection: true
 ---
