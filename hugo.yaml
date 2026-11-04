@@ -18,7 +18,6 @@ params:
   BookToC: true              # Bật Table of Contents (mục lục bên phải)
 
 menu:
-  menu:
   before:
     - name: "1. Worklog"
       pageRef: "/1-worklog"
