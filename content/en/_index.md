@@ -1,5 +1,7 @@
 ---
 title: "Internship Report"
+weight: 1
+bookFlatSection: true
 type: docs
 ---
 
