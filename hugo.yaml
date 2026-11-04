@@ -1,5 +1,5 @@
-baseURL: "https://mellow-marzipan-18443a.netlify.app/"
-title: "Worklog của Tùng Dương"
+baseURL: "http://localhost:1313/"
+title: "AWS"
 theme: "hugo-book"
 defaultContentLanguage: "en"
 
