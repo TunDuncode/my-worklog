@@ -1,4 +1,4 @@
-baseURL: "https://tunduncode.github.io/my-worklog/"
+baseURL: "https://mellow-marzipan-18443a.netlify.app/"
 title: "Worklog của Tùng Dương"
 theme: "hugo-book"
 defaultContentLanguage: "en"
@@ -10,15 +10,15 @@ languages:
     contentDir: "content/en"
 
 params:
-  BookTheme: "auto"
+  BookTheme: "auto"          # Tự động chuyển Dark/Light mode
   BookRepo: "https://github.com/TunDuncode/my-worklog"
   BookEditURL: "https://github.com/TunDuncode/my-worklog/edit/main/content/en/"
-  BookSearch: true
+  BookSearch: true           # Bật thanh tìm kiếm
   BookSection: "*"
-  BookToC: true
+  BookToC: true              # Bật Table of Contents (mục lục bên phải)
 
 menu:
   before:
-    - name: "Worklog"
+    - name: "1. Worklog"
       pageRef: "/1-worklog"
       weight: 10
