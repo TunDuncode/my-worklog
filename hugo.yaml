@@ -22,9 +22,3 @@ menu:
     - name: "Worklog"
       pageRef: "/1-worklog"
       weight: 10
-
-menu:
-  before:
-    - name: "1. Worklog"
-      pageRef: "/1-worklog"
-      weight: 10
