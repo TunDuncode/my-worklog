@@ -14,3 +14,9 @@ params:
   BookSearch: true
   BookSection: "*" 
   BookToC: true
+
+# Thêm đoạn này để cho phép hiển thị HTML
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
