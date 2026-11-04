@@ -1,4 +1,4 @@
-baseURL: "http://localhost:1313/" # Dùng link này để xem trên máy. Khi nào up lên Netlify hãy đổi lại sau.
+baseURL: "https://mellow-marzipan-18443a.netlify.app/"
 title: "Worklog của Tùng Dương"
 theme: "hugo-book"
 defaultContentLanguage: "en"
@@ -13,28 +13,4 @@ params:
   BookTheme: "auto"
   BookSearch: true
   BookSection: "*" 
-  BookToC: true         # Bật Table of Contents (mục lục bên phải)
-
-menu:
-  before:
-    - name: "1. Worklog"
-      pageRef: "/1-worklog"
-      weight: 10
-    - name: "2. Proposal"
-      pageRef: "/2-proposal"
-      weight: 20
-    - name: "3. Blogs Posted"
-      pageRef: "/3-blogs"
-      weight: 30
-    - name: "4. Events Participated"
-      pageRef: "/4-events"
-      weight: 40
-    - name: "5. Workshop"
-      pageRef: "/5-workshop"
-      weight: 50
-    - name: "6. Self-Assessment"
-      pageRef: "/6-assessment"
-      weight: 60
-    - name: "7. Sharing and Feedback"
-      pageRef: "/7-feedback"
-      weight: 70
+  BookToC: true
