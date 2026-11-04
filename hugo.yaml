@@ -1,5 +1,5 @@
 baseURL: "https://mellow-marzipan-18443a.netlify.app/"
-title: "Worklog"
+title: ""
 theme: "hugo-book"
 defaultContentLanguage: "en"
 
